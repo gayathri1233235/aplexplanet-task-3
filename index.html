@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vyshnavi's Task-3 Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Task-3</h1>
+    <p>Responsive Design | Interactive Quiz | API Integration</p>
+  </header>
+
+  <!-- Responsive Section -->
+  <section class="responsive-demo">
+    <h2>Responsive Layout Demo</h2>
+    <div class="responsive-box">Resize me to see changes!</div>
+  </section>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section">
+    <h2>Simple JavaScript Quiz</h2>
+    <div id="quiz">
+      <p>Q: What does HTML stand for?</p>
+      <button onclick="checkAnswer('a')">a) Hyper Text Markup Language</button>
+      <button onclick="checkAnswer('b')">b) Home Tool Markup Language</button>
+      <button onclick="checkAnswer('c')">c) Hyperlinks and Text Markup Language</button>
+      <p id="quizResult"></p>
+    </div>
+  </section>
+
+  <!-- API Fetch Section -->
+  <section class="api-section">
+    <h2>Joke Generator (API)</h2>
+    <button onclick="fetchJoke()">Get a Random Joke</button>
+    <p id="jokeBox">Click the button above to laugh!</p>
+  </section>
+
+  <footer>
+    <p>Created with heart by Vyshnavi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
